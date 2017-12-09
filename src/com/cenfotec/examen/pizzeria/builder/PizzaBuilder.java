@@ -11,7 +11,7 @@ public class PizzaBuilder {
 	
 	public PizzaBuilder(Tamano tamano) {
 		pizza.setTamano(tamano);
-        pizza.agregarCosto(tamano.getCosto());
+		pizza.agregarCosto(tamano.getCosto());
     }
 	 
     public PizzaBuilder withTopping(Topping topping) {

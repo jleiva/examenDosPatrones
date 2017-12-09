@@ -21,6 +21,7 @@ public class ExamenDos {
 				.withTopping(Topping.TOCINETA)
 				.build();
 		
+		// Esperado: 7800.0
 		System.out.println(pizzaPersonal.getPrecio());
 		
 		Pizza pizzaHipster = new PizzaBuilder(Tamano.PEQUENA)
@@ -29,6 +30,7 @@ public class ExamenDos {
 				.withQueso(Queso.MOZZARELLA)
 				.build();
 		
+		// Esperado: 8000.0
 		System.out.println(pizzaHipster.getPrecio());
 	}
 }
